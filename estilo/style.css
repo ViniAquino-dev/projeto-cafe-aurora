@@ -1,0 +1,468 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Raleway:wght@500;600;700&display=swap');
+
+/* Globais */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  color: #332821;
+  font-size: 1.6rem;
+  line-height: 1.4;
+  background-color: #f8efe7;
+}
+
+h1 {
+  font-size: 3.98rem;
+  line-height: 1.1;
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 2.76rem;
+  line-height: 1.2;
+  font-weight: 600;
+}
+
+h3 {
+  font-size: 2.3rem;
+  line-height: 1.2;
+  font-weight: 600;
+}
+
+p {
+  line-height: 1.5;
+}
+
+strong {
+  font-weight: 700;
+}
+
+.secao {
+  padding: 7.63rem 2rem;
+}
+
+.container {
+  max-width: 120rem;
+  margin: 0 auto;
+}
+
+.botao {
+  display: inline-block;
+
+  font-size: 1.92rem;
+  font-weight: 700;
+
+  text-decoration: none;
+
+  border-radius: 3rem;
+  padding: 1.02rem 2.5rem;
+
+  color: white;
+
+  box-shadow: 0 0.21rem 0.6rem rgba(0, 0, 0, 0.1);
+
+  border: 0;
+}
+
+/* Cabeçalho */
+
+.cabecalho {
+  position: sticky;
+  top: 0;
+
+  z-index: 9999;
+
+  padding: 1.6rem 2rem;
+
+  background-color: white;
+
+  box-shadow: 0 0.21rem 0.6rem rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+  width: 12rem;
+  margin-bottom: 1rem;
+}
+
+.item-lista {
+  display: inline-block;
+
+  list-style: none;
+
+  margin-right: 2rem;
+}
+
+.item-lista:last-child {
+  margin-right: 0;
+}
+
+.item-lista a {
+  text-decoration: none;
+
+  color: inherit;
+
+  font-size: 1.8rem;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.item-lista a:link,
+.item-lista a:visited {
+  color: #332821;
+}
+
+.item-lista a:hover,
+.item-lista a:active {
+  color: #c78d55;
+}
+
+/* Hero */
+
+.secao-hero {
+  background-image: linear-gradient(180deg, #2a1a12, #7a5238);
+
+  color: #f8efe7;
+
+  box-shadow: 0 0.21rem 0.6rem rgba(0, 0, 0, 0.1);
+}
+
+.titulo-principal {
+  max-width: 70rem;
+
+  margin-bottom: 2rem;
+}
+
+.p-hero {
+  max-width: 80rem;
+
+  margin-bottom: 2.5rem;
+
+  font-size: 1.92rem;
+}
+
+.botao-hero {
+  background-image: linear-gradient(135deg, #f59e0b, #d97706);
+
+  border-bottom: solid 0.4rem #b45309;
+  border-right: solid 0.4rem #b45309;
+}
+
+.botao-hero:hover {
+  background-image: none;
+  border-bottom: solid 0.4rem #b45309;
+  border-right: solid 0.4rem #b45309;
+  background-color: #b45309;
+}
+
+/* Nossos Cafés */
+
+.secao-nosso-cafe {
+  background-color: #f8efe7;
+}
+
+.container-nosso-cafe {
+  background-image: linear-gradient(180deg, #6f625a, #8a7465);
+
+  border-radius: 5rem;
+
+  box-shadow: inset 0 0 0.8rem 0.3rem rgba(0, 0, 0, 0.15);
+
+  padding: 4.88rem;
+}
+
+.caixa-nosso-cafe {
+  display: inline-block;
+
+  width: 32%;
+
+  padding: 2rem;
+
+  vertical-align: top;
+}
+
+.caixa-nosso-cafe p {
+  color: #ead8c4;
+
+  margin-bottom: 1rem;
+}
+
+.caixa-imagens-nosso-cafe {
+  height: 28rem;
+
+  text-align: center;
+
+  margin-bottom: 2rem;
+}
+
+.caixa-imagens-nosso-cafe img {
+  width: 100%;
+  height: 100%;
+
+  object-fit: contain;
+}
+
+.realce-h2,
+.realce-h3 {
+  font-family: 'Raleway', sans-serif;
+
+  font-weight: 700;
+
+  letter-spacing: 0.08rem;
+
+  color: bisque;
+}
+
+.realce-h2 {
+  margin-bottom: 1.2rem;
+}
+
+/* Diferenciais */
+
+.secao-diferenciais {
+  position: relative;
+
+  background-image: url(../imagens/fundo\ graos.png);
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  min-height: 40rem;
+}
+
+.container-diferenciais {
+  position: absolute;
+
+  top: 0;
+  right: 0;
+
+  width: 50%;
+  height: 100%;
+
+  background-image: linear-gradient(180deg, #2a1a12, #7a5238);
+
+  padding: 4rem;
+}
+
+.caixa-diferenciais {
+  margin-bottom: 3.12rem;
+}
+
+.caixa-diferenciais:last-child {
+  margin-bottom: 0;
+}
+
+.caixa-diferenciais h3 {
+  margin-bottom: 1rem;
+}
+
+.caixa-diferenciais p {
+  color: white;
+
+  line-height: 1.7;
+}
+
+/* Depoimento */
+
+.container-depoimentos {
+  position: relative;
+
+  background-image: url('../imagens/foto-Marina.png');
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  min-height: 40rem;
+
+  border-radius: 5rem;
+
+  box-shadow: inset 0 0 0.8rem 0.3rem rgba(0, 0, 0, 0.15);
+}
+
+.bloco-depoimento {
+  position: absolute;
+
+  top: 50%;
+  left: 5rem;
+
+  transform: translateY(-50%);
+
+  width: 48%;
+}
+
+.bloco-depoimento cite {
+  font-size: 2rem;
+
+  font-style: italic;
+
+  font-weight: 500;
+
+  line-height: 1.6;
+}
+
+.autora-depoimento {
+  margin-top: 2rem;
+
+  font-size: 1.6rem;
+
+  font-weight: 700;
+}
+
+/* Newsletter */
+
+.container-newsletter {
+  background-color: #ffffff;
+
+  padding: 4.88rem;
+
+  border-radius: 3rem;
+
+  box-shadow: 0 0 0.8rem 0.3rem rgba(0, 0, 0, 0.1);
+}
+
+.texto-newsletter {
+  display: inline-block;
+
+  width: 48%;
+
+  vertical-align: middle;
+}
+
+.texto-newsletter h3 {
+  margin-bottom: 1rem;
+}
+
+.form-newsletter {
+  display: inline-block;
+
+  width: 48%;
+
+  vertical-align: middle;
+}
+
+.form-newsletter input {
+  display: block;
+
+  width: 100%;
+
+  padding: 1.28rem;
+
+  margin-bottom: 1.28rem;
+
+  border: 0.1rem solid #d8c3b0;
+
+  border-radius: 1rem;
+
+  font-family: inherit;
+}
+
+.form-newsletter input:focus {
+  outline: 0.2rem solid #2f6b5f;
+}
+
+.form-newsletter button {
+  padding: 1.28rem 2.5rem;
+
+  border: none;
+
+  border-radius: 2rem;
+
+  background-image: linear-gradient(135deg, #2f6b5f, #1f4d45);
+
+  color: #fff;
+
+  font-family: inherit;
+
+  font-weight: 600;
+
+  cursor: pointer;
+}
+
+.form-newsletter button:hover {
+  background-image: none;
+
+  background-color: #1f4d45;
+}
+
+/* Rodapé */
+
+.rodape {
+  background-color: #3b2416;
+
+  color: #f8efe7;
+}
+
+.rodape-info,
+.rodape-links {
+  display: inline-block;
+
+  width: 48%;
+
+  vertical-align: top;
+}
+
+.rodape-info h2,
+.rodape-links h3 {
+  margin-bottom: 1.2rem;
+}
+
+.rodape-info p {
+  margin-bottom: 0.5rem;
+}
+
+.rodape-links a {
+  display: block;
+
+  color: #f8efe7;
+
+  text-decoration: none;
+
+  margin-bottom: 1rem;
+}
+
+.rodape-links a:hover,
+.rodape-links a:active {
+  color: #c78d55;
+}
+
+.rodape hr {
+  margin: 3.12rem 0;
+
+  border: none;
+
+  border-top: 0.1rem solid #6f4e37;
+}
+
+.copyright {
+  text-align: center;
+}
+
+/* WhatsApp */
+
+.logo-whats {
+  position: fixed;
+
+  right: 1rem;
+  bottom: 1rem;
+
+  width: 7rem;
+}
+
+.logo-whats:hover {
+  transform: translate(0.3rem, 0.3rem);
+}
+
+.logo-whats img {
+  width: 100%;
+}
